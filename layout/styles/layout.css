@@ -19,6 +19,14 @@ File: Layout CSS
 .contacts {font-size: 105%;}
 
 
+
+:focus-visible	{
+	outline: 2px solid red ; 
+  }
+.btn:focus-visible	{
+	background-color: #0068ad !important; 
+  }
+
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{color: #0068ad;}

@@ -13,7 +13,6 @@ showSlides(slideIndex);
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
-  clearInterval(t);
 }
 
 // Thumbnail image controls
@@ -35,6 +34,8 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+  
+  clearInterval(t);
 }
 
 

@@ -12,14 +12,16 @@ File: Layout CSS
 @import url("fontawesome-free/css/fontawesome-all.min.css");
 @import url("framework.css");
 
+/* main changes for fit1050 assignment
+--------------------------------------------------------------------------------------------------------------- */
 .heading {font-family: 'Montserrat', sans-serif;}
 .offers {font-size: 60px;}
 .list {text-align: left; padding-left: 20px;}
 #latest {padding-bottom: 0px;}
 .contacts {font-size: 105%;}
 
-
-
+/* Focus indicators
+--------------------------------------------------------------------------------------------------------------- */
 :focus-visible	{
 	outline: 2px solid red ; 
   }
@@ -27,6 +29,8 @@ File: Layout CSS
 	background-color: #0068ad !important; 
   }
 
+
+  
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{color: #0068ad;}

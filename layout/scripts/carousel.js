@@ -14,7 +14,6 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
   clearInterval(t);
-  autoNext();
 }
 
 // Thumbnail image controls

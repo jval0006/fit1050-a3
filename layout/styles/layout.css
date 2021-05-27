@@ -357,9 +357,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#1e9eda;}
 .prices li article:hover, .prices li article:hover .btn, .prices .btn:hover{color:inherit; background-color:#FFFFFF; border-color:#1e9eda;}
 .prices li article p:last-of-type strong{color:#0068ad;}
 
-.red{color:#B12E52;}
+.red{color:red;}
 .green{color:#00B900}
 .blue{color:#359AFF}
+.yellow{color:gold}
 
 
 /* Introblocks */
